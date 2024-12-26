@@ -110,12 +110,14 @@
  //     }
 // }
 // checkvote(17);
- let age=prompt("Enter your age:");
- if(age>=18){
-    console.log("eligible to vote");
- } else{
-    console.log("eligible not to vote");
- }
+
+// Without function 
+//  let age=prompt("Enter your age:");
+//  if(age>=18){
+//     console.log("eligible to vote");
+//  } else{
+//     console.log("eligible not to vote");
+//  }
 
 
 
@@ -135,11 +137,9 @@
 // function main(){
 //     let username=prompt("enter username:");
 //     let password=prompt("enter password:");
-
 //     checklogin(username,password)
-
 // }
-// main();
+//  main();
 
 // function checkLogin() {
 //     const Username = "admin";
@@ -155,6 +155,19 @@
 // }
 
 // checkLogin();
+
+// Without function 
+// // const Username = "admin";
+//     const Password = "1234";
+//     let username = prompt("Enter username:");
+//     let password = prompt("Enter password:");
+
+//     if (username == Username && password == Password) {
+//         console.log("Login successful");
+//     } else {
+//         console.log("Login failed");
+//     }
+
 
 //Q   7   
 // function checkLight(){
@@ -172,7 +185,17 @@
 // }
 // checkLight();
 
-
+// Without Function 
+// let color =prompt("enter your color:");
+// if(color=="red"){
+//    console.log("stop");
+// }else if (color =="yellow"){
+//    console.log("slow");
+// }else if(color=="green"){
+//    console.log("Go");
+// }else{
+//    console.log("Invalid Color");
+// }
 
 //Q  8
 // let arr=[1,2,3,4,5];
@@ -183,15 +206,26 @@
 //     sum=sum+arr[i];
 // }
 // let avg=sum/len;
-
 // console.log(avg);
+// Without Function 
+// function calculateAvgerage( arr){
+// let sum=0;
+// let i;
+// let len=arr.length;
+// for(i=0;i<len;i++){
+//    sum=sum+arr[i];
+// }
+// let avg=sum/len;
+// return avg;
+// }
+// let result=calculateAvgerage([1,2,3,4,5]);
+// console.log(result);
 
 //Q 9
 // let arr=[4,2,8,5,1];
 // let i;
 // let j;
 // let k;
-
 // let len=arr.length;
 // for(i=0;i<len;i++){
 //     for(j=i+1;j<len;j++){
@@ -205,6 +239,28 @@
 // for(k=0;k<len;k++){
 //     console.log(arr[k]);
 // }
+
+// Without Function 
+// function sortarray(arr){
+// let i;
+// let j;
+// let k;
+// let len =arr.length;
+// for(i=0;i<len;i++){
+//    for(j=i+1;j<len;j++){
+//       if(arr[i]>arr[j]){
+//          let sum=arr[i]+arr[j];
+//          arr[i]=arr[j];
+//          arr[j]=sum-arr[i];
+//       }
+//    }
+// }
+// for(k=0;k<len; k++){
+//    console.log(arr[k]);
+// }
+// }
+// let result=sortarray([4,2,8,5,1]);
+// console.log(result);
             
 //Q 10
 // let arr=[1,2,3,4,5];
@@ -217,14 +273,28 @@
 //         even=even+1;
 //     }else{
 //         odd=odd+1;
-
-//     }
-    
+//     }    
 // }
 // console.log("even",even);
 //    console.log("odd",odd);
 
-
+// function countEvenOdd(arr) {
+// let len=arr.length;
+// let i;
+// let even=0;
+// let odd =0;
+// for(i=0;i<len;i++){
+//    if(arr[i]%2==0){
+//       even=even+1;
+//    }else{
+//       odd=odd+1;
+//    }
+// }
+// return {even,odd};
+// }
+// let result=countEvenOdd([1,2,3,4,5]);
+// console.log("even",result.even);
+// console.log("odd",result.odd);
 
 
 
@@ -261,7 +331,6 @@
 // let arr=[1,2,3,4,5];
 // let len=arr.length;
 // let number=3;
-
 //     if(arr.includes(number)){
 //         console.log("true");
 //     }else{
