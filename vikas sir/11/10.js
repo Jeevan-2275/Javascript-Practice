@@ -9,15 +9,13 @@
 //     }
 //     return inner;
 // }
-
 // var getsum = outer(); 
 // var num = getsum();   
 // console.log(num);     
 
 
 // function add(a,b){
-//     return a+b;
-    
+//     return a+b;    
 // }
 // function calc( a,b,add){
 //     console.log(add(a,b));

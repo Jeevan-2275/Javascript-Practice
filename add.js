@@ -119,6 +119,8 @@
 //    }else{
 //       console.log("not prime");
 //       }
+
+
  10  // fibbonacci seqence
   //  let a=0;
   //  let b=1;
@@ -142,6 +144,7 @@
   // a=b;
   // b=temp;
   // console.log(a,b);
+  
   12   //swaping of two Number
   // let a=5;
   // let b=8;
